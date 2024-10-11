@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos del documento -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el viewport para dispositivos móviles -->
+    <title>Lista de Tareas</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="styles3.css"> <!-- Vincula la hoja de estilos CSS para dar formato a la página -->
+</head>
+<body>
+    <h1>Lista de Tareas</h1> <!-- Título principal de la aplicación -->
+    
+    <div class="todo-container"> <!-- Contenedor para la lista de tareas -->
+        <!-- Campo de texto para ingresar una nueva tarea -->
+        <input type="text" id="nuevaTarea" placeholder="Agregar una nueva tarea"> 
+        <!-- Botón para agregar la tarea -->
+        <button onclick="agregarTarea()">Agregar</button> 
+        <!-- Lista desordenada para mostrar las tareas -->
+        <ul id="listaTareas"></ul> 
+    </div>
+
+    <!-- Vincula el archivo JavaScript que contiene la lógica de la aplicación -->
+    <script src="script2.js"></script> 
+</body>
+</html>
+
+
